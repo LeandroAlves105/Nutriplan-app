@@ -30,7 +30,7 @@ const TESTIMONIALS = [
   },
 ]
 
-const HOTMART_URL = "https://pay.hotmart.com/V104587905E?off=pv18aha6"
+const HOTMART_URL = "https://pay.hotmart.com/V104587905E"
 
 export function Paywall({ diet, userName }: PaywallProps) {
   const [showCheckoutModal, setShowCheckoutModal] = useState(false)

@@ -8,9 +8,6 @@ const _inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: 'NutriPlan - Sua Dieta Personalizada de 12 Semanas',
   description: 'Crie seu plano alimentar personalizado de 12 semanas com base nos seus objetivos e preferencias alimentares.',
-verification: {
-    facebook: 'k6mnwpvncuxlfls9x4ywps93xg5ac3',
-  },
 }
 
 export const viewport: Viewport = {
@@ -28,6 +25,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
+      <head>
+        <meta name="facebook-domain-verification" content="k6mnwpvncuxlfls9x4ywps93xg5ac3" />
+      </head>
       <body className="font-sans antialiased">
         {children}
         <Analytics />
